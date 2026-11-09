@@ -2,19 +2,35 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
+
+   
+    p.mb-3 El componente formativo Sistema Moda articula actores y actividades relacionados con el diseño, la producción, la comercialización y el uso de prendas y accesorios. Comprender sus fundamentos, categorías y universos de vestuario permite reconocer las características de los productos y relacionarlas con las necesidades del consumidor.
+    p.mb-1 La cultura, las tendencias y los comportamientos de compra aportan elementos para interpretar el mercado. Los canales de distribución, la omnicanalidad y los eventos facilitan el encuentro entre las marcas y sus públicos.
+    p.mb-4 El mercadeo integra estos conocimientos mediante decisiones sobre producto, precio, distribución y comunicación. Su aplicación requiere objetivos claros, información verificable y seguimiento para ofrecer experiencias coherentes y orientar mejoras.
+
     
+             
+    //- .container
+    //-   .row.mb-lg-5.mb-4.justify-content-center.align-items-center
+    //-     .col-lg-12.col-md-12
+    //-       .row.align-items-center.bg-fondo-01.p-4
+    //-         .col-lg-auto.order-1
+    //-           img.d-none.d-lg-flex(src="@/assets/curso/intro/img04.svg", style="max-width: 150px").mx-auto
+    //-         .col-lg.order-2
+    //-           p.mb-0 De igual manera, se analizan el plan de mercadeo y la investigación de mercados como herramientas para la planeación y toma de decisiones, junto con las estrategias de <em>marketing</em> y el <em>marketing online</em> para fortalecer la relación con los clientes y el cumplimiento de los objetivos organizacionales. Finalmente, se estudian las tendencias del <em>marketing</em>, como el <em>neuromarketing</em>, el <em>marketing</em> sensorial y las neuroventas, destacando sus aplicaciones en la comprensión del comportamiento del consumidor y en el diseño de estrategias comerciales orientadas a la creación de valor.
+        
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg" alt="El componente formativo Sistema Moda integra diseño, producción, comercialización y consumo de prendas y accesorios. La cultura, las tendencias y los comportamientos de compra permiten interpretar las necesidades del consumidor. Los canales, la omnicanalidad y los eventos conectan marcas y públicos. El mercadeo orienta decisiones de producto, precio, distribución y comunicación, con objetivos claros y seguimiento.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto
             p Anexo. Síntesis
+
 
 </template>
 

@@ -2,12 +2,10 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
       #Actividad                
       <ActividadController :cuestionario="cuestionario"/>
   
-  </template>
+</template>
 
 <script>
 import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
@@ -19,489 +17,691 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Sistema Moda',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> verificar la comprensión del Sistema Moda, el diseño, las categorías, los canales, la cultura, las tendencias, los usuarios, los eventos y el mercadeo mediante situaciones de selección múltiple con única respuesta.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_aprobado: '¡EXCELENTE!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
+      mensaje_aprobado:
+        '¡Excelente! Alcanzó al menos 14 respuestas correctas de 20. Reconoció conceptos y situaciones del Sistema Moda. Revise la retroalimentación para fortalecer su comprensión.',
+      mensaje_reprobado:
+        'Revise los temas asociados con sus respuestas incorrectas y vuelva a intentarlo. Puede repetir la actividad para fortalecer su comprensión del Sistema Moda.',
+      mensaje_final_aprobado:
+        '¡Excelente! Alcanzó al menos 14 respuestas correctas de 20. Reconoció conceptos y situaciones del Sistema Moda. Revise la retroalimentación para fortalecer su comprensión.',
+      mensaje_final_reprobado:
+        'Revise los temas asociados con sus respuestas incorrectas y vuelva a intentarlo. Puede repetir la actividad para fortalecer su comprensión del Sistema Moda.',
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'Una marca recoge opiniones sobre una camisa y ajusta su diseño. ¿Qué relación del sistema moda evidencia?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'La sustitución del diseño por la comercialización.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'La retroalimentación del consumidor hacia el diseño.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'La independencia del diseño frente al uso.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'La definición del precio mediante el color.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Identificó cómo la experiencia del consumidor orienta nuevas decisiones de diseño.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Revise la retroalimentación: las opiniones de los usuarios pueden orientar ajustes en el diseño.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Una colección combina únicamente blanco, negro y grises. ¿Qué esquema de color utiliza?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Complementario.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Análogo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto: 'Monocromático azul.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto: 'Acromático.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Reconoció el esquema acromático por el uso de blanco, negro y grises.',
+          mensaje_incorrecto:
+            'Recuerde que el esquema acromático utiliza blanco, negro y grises.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            'Una marca produce camisas listas para usar en tallas definidas. ¿Qué categoría describe esta oferta?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
+              texto: 'Prêt-à-porter.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Alta costura.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Showroom.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Omnicanalidad.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Identificó el prêt-à-porter como vestuario listo para usar, producido en tallas o series.',
+          mensaje_incorrecto:
+            'Revise el prêt-à-porter: corresponde al vestuario listo para usar, producido en tallas o series.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Un fabricante vende prendas a una boutique, que las comercializa al consumidor final. ¿Qué canal utiliza?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Directo, sin intermediarios.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Largo, con mayorista y minorista.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Corto, con un minorista.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Logístico, con un transportador.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Reconoció un canal corto porque participa un minorista entre fabricante y consumidor.',
+          mensaje_incorrecto:
+            'Identifique los participantes: fabricante, boutique y consumidor conforman un canal corto.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué acción permite dar continuidad entre la consulta digital y la atención en tienda?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Publicar fotografías sin identificar las referencias.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Coordinar disponibilidad e información entre canales.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Gestionar cada canal sin compartir información.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Confirmar tallas sin revisar el inventario.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Relacionó la omnicanalidad con la coordinación de información y disponibilidad.',
+          mensaje_incorrecto:
+            'Revise la omnicanalidad: necesita coordinar información, disponibilidad y atención entre canales.',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Una campaña muestra la misma camisa combinada de distintas maneras. ¿Cómo puede analizarla sin generalizar?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: 'Describir lo visible y contrastar sus interpretaciones.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Deducir las creencias de cada persona por su vestuario.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Atribuir iguales gustos a quienes comparten edad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Suponer que la marca representa a toda una cultura.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Diferenció la observación de las interpretaciones que necesitan verificación.',
+          mensaje_incorrecto:
+            'Describa los elementos visibles y contraste sus interpretaciones antes de atribuir significados a las personas.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Una publicación sobre bolsos se vuelve viral. ¿Qué debe hacer antes de considerarla una tendencia del mercado?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Proyectar ventas usando solamente sus reacciones.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'Extender la conclusión a todos los consumidores.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Reemplazar la investigación por el número de seguidores.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
+              texto: 'Contrastar señales de distintas fuentes y periodos.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Reconoció que una tendencia requiere contrastar señales y considerar su contexto.',
+          mensaje_incorrecto:
+            'Recuerde que la viralidad no demuestra una tendencia: contraste fuentes, contexto y periodo.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Una empresa compra uniformes para sus trabajadores. ¿Quiénes cumplen los roles de cliente y usuario?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Los trabajadores compran y la empresa utiliza.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'El fabricante compra y los trabajadores distribuyen.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'La empresa compra y los trabajadores utilizan.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La transportadora compra y la empresa utiliza.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Diferenció al cliente que adquiere el producto de quienes lo utilizan.',
+          mensaje_incorrecto:
+            'Identifique los roles: la empresa es cliente y los trabajadores son usuarios de los uniformes.',
         },
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Una marca organiza pantalones y chaquetas cuyo material de referencia es el denim. ¿Qué universo corresponde?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Jeanswear.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Sleepwear.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Swimwear.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Underwear.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Relacionó el universo jeanswear con productos cuyo referente principal es el denim.',
+          mensaje_incorrecto:
+            'Revise los universos: jeanswear agrupa productos cuyo referente principal es el denim.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Una marca desea que compradores de tiendas revisen prendas, materiales y condiciones comerciales. ¿Qué formato resulta pertinente?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Una publicación promocional sin atención.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Una campaña de alcance sin productos disponibles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un showroom con presentación de referencias.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Un desfile sin espacio de consulta comercial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Seleccionó el showroom para facilitar la revisión de productos y condiciones comerciales.',
+          mensaje_incorrecto:
+            'Considere el showroom: permite presentar referencias y atender consultas de compradores.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué decisión corresponde a la variable precio dentro de la mezcla de mercadeo?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Elegir el material de la camisa.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Establecer cuánto se cobra y bajo qué condiciones.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Seleccionar el canal de distribución.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Definir el mensaje de una publicación.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Identificó el precio como la decisión sobre el cobro y sus condiciones.',
+          mensaje_incorrecto:
+            'Revise las variables: el precio establece cuánto se cobra y bajo qué condiciones.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'Una empresa de moda pasó de 20 a 28 consultas; su meta era 30. ¿Qué interpretación es correcta?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Alcanzó la meta porque superó el registro inicial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Obtuvo 28 ventas, aunque solo midió consultas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Demostró que el precio causó la diferencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mejoró, pero debe analizar por qué no alcanzó la meta.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Distinguió el avance frente al registro inicial del cumplimiento de la meta.',
+          mensaje_incorrecto:
+            'Compare 28 con la meta de 30: hubo avance, pero necesita investigar las causas de la diferencia.',
+        },
+        {
+          id: 13,
+          texto:
+            'Un cliente quiere comprobar la suavidad de una tela. ¿Qué acción permite valorar directamente su textura táctil?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Consultar el precio de la prenda.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Revisar el nombre de la colección.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto: 'Examinar una muestra física del material.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto: 'Observar únicamente una fotografía.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Reconoció que una muestra física permite valorar directamente la textura táctil.',
+          mensaje_incorrecto:
+            'Distinga percepción visual y táctil: para comprobar suavidad necesita examinar físicamente el material.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'Una ficha clasifica una prenda como camisa casual de mercado intermedio. ¿Qué criterios está diferenciando?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Tipo y uso del producto, y nivel de mercado.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Canal de distribución y medio de pago.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Etapa de producción y costo de transporte.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Formato de evento y alcance publicitario.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Muy bien! Diferenció el tipo y uso de la prenda de su nivel de mercado.',
+          mensaje_incorrecto:
+            'Revise los criterios: camisa casual describe tipo y uso; mercado intermedio señala el nivel de mercado.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            'Una persona adapta una tendencia a sus preferencias y rechaza algunos elementos. ¿Qué principio permite analizar esa elección?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Convergencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Personalización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Imperio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Autonomía.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Relacionó la autonomía con la posibilidad de seleccionar, adaptar o rechazar propuestas.',
+          mensaje_incorrecto:
+            'Revise la autonomía: la persona puede adaptar o rechazar elementos según sus preferencias.',
+        },
+        {
+          id: 16,
+          texto:
+            'Un observatorio registra consultas sobre bolsillos con cierre. ¿Qué debe hacer antes de proponer cambios en una colección?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Considerar que la preferencia representa a todo el mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Contrastar la frecuencia y el contexto de las consultas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir los registros por la opinión del vendedor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Descartar las consultas que no terminaron en compra.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Identificó la necesidad de contrastar señales antes de formular una oportunidad.',
+          mensaje_incorrecto:
+            'Revise frecuencia, contexto y otras fuentes antes de convertir una señal en una conclusión.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué información permite construir un perfil de consumidor útil para una marca de vestuario?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Necesidades, ocasiones de uso y barreras de compra verificadas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Preferencias deducidas únicamente por la apariencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Gustos supuestos para todas las personas de igual edad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Intereses atribuidos sin consultar a los usuarios.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-      ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
+          mensaje_correcto:
+            '¡Muy bien! Seleccionó información verificable que permite comprender necesidades y comportamientos del consumidor.',
+          mensaje_incorrecto:
+            'Construya el perfil con evidencias sobre necesidades, actividades y dificultades de compra; evite suposiciones.',
         },
         {
-          id: 2,
+          id: 18,
           texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
+            'Una marca desea vender accesorios en un local temporal durante un fin de semana. ¿Qué formato corresponde?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Desfile.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Showroom exclusivo para prensa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Pop-up store.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Encuentro académico sin venta.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Identificó la pop-up store como un espacio comercial temporal.',
+          mensaje_incorrecto:
+            'Revise los eventos: la pop-up store permite presentar y vender una oferta en un espacio temporal.',
         },
         {
-          id: 3,
+          id: 19,
           texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
+            'Una marca identifica personas que combinan bicicleta y trabajo para orientar su oferta. ¿Qué acción de mercadeo realiza?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Define el precio sin analizar necesidades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Selecciona materiales antes de investigar al usuario.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mide el alcance de una publicación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Segmenta el mercado según necesidades y actividades.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Reconoció la segmentación como identificación de grupos relevantes para orientar la oferta.',
+          mensaje_incorrecto:
+            'Relacione la segmentación con grupos que comparten necesidades o comportamientos relevantes para la decisión comercial.',
         },
         {
-          id: 4,
+          id: 20,
           texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
+            'Una marca comunica cómo mejoró una camisa a partir de opiniones de usuarios. ¿Qué práctica fortalece su storytelling?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Inventar resultados para hacer más atractivo el relato.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Relacionar necesidades, acciones y resultados con hechos verificables.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Afirmar que todos los consumidores prefieren la nueva versión.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Presentar como realizado un cambio que todavía está en estudio.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Relacionó el storytelling con una narración sustentada en hechos verificables.',
+          mensaje_incorrecto:
+            'Compruebe los hechos del relato: la historia debe corresponder con las acciones y resultados reales.',
         },
       ],
     },
   }),
 }
 </script>
+
+<style lang="sass"></style>
