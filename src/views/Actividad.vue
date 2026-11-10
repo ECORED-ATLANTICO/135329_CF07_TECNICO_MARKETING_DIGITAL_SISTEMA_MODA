@@ -108,7 +108,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Prêt-à-porter.',
+              texto: '<em>Prêt-à-porter</em>.',
               esCorrecta: true,
             },
             {
@@ -118,7 +118,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Showroom.',
+              texto: '<em>Showroom</em>.',
               esCorrecta: false,
             },
             {
@@ -128,9 +128,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Identificó el prêt-à-porter como vestuario listo para usar, producido en tallas o series.',
+            '¡Muy bien! Identificó el <em>prêt-à-porter</em> como vestuario listo para usar, producido en tallas o series.',
           mensaje_incorrecto:
-            'Revise el prêt-à-porter: corresponde al vestuario listo para usar, producido en tallas o series.',
+            'Revise el <em>prêt-à-porter</em>: corresponde al vestuario listo para usar, producido en tallas o series.',
         },
         {
           id: 4,
@@ -300,35 +300,35 @@ export default {
         {
           id: 9,
           texto:
-            'Una marca organiza pantalones y chaquetas cuyo material de referencia es el denim. ¿Qué universo corresponde?',
+            'Una marca organiza pantalones y chaquetas cuyo material de referencia es el <em>denim</em>. ¿Qué universo corresponde?',
           imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Jeanswear.',
+              texto: '<em>Jeanswear</em>.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Sleepwear.',
+              texto: '<em>Sleepwear</em>.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Swimwear.',
+              texto: '<em>Swimwear</em>.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Underwear.',
+              texto: '<em>Underwear</em>.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Relacionó el universo jeanswear con productos cuyo referente principal es el denim.',
+            '¡Muy bien! Relacionó el universo <em>jeanswear</em> con productos cuyo referente principal es el <em>denim</em>.',
           mensaje_incorrecto:
-            'Revise los universos: jeanswear agrupa productos cuyo referente principal es el denim.',
+            'Revise los universos: <em>jeanswear</em> agrupa productos cuyo referente principal es el <em>denim</em>.',
         },
         {
           id: 10,
@@ -349,7 +349,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Un showroom con presentación de referencias.',
+              texto: 'Un <em>showroom</em> con presentación de referencias.',
               esCorrecta: true,
             },
             {
@@ -359,9 +359,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Seleccionó el showroom para facilitar la revisión de productos y condiciones comerciales.',
+            '¡Muy bien! Seleccionó el <em>showroom</em> para facilitar la revisión de productos y condiciones comerciales.',
           mensaje_incorrecto:
-            'Considere el showroom: permite presentar referencias y atender consultas de compradores.',
+            'Considere el <em>showroom</em>: permite presentar referencias y atender consultas de compradores.',
         },
         {
           id: 11,
@@ -610,12 +610,12 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Showroom exclusivo para prensa.',
+              texto: '<em>Showroom</em> exclusivo para prensa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Pop-up store.',
+              texto: '<em>Pop-up store</em>.',
               esCorrecta: true,
             },
             {
@@ -625,9 +625,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Identificó la pop-up store como un espacio comercial temporal.',
+            '¡Muy bien! Identificó la <em>pop-up store</em> como un espacio comercial temporal.',
           mensaje_incorrecto:
-            'Revise los eventos: la pop-up store permite presentar y vender una oferta en un espacio temporal.',
+            'Revise los eventos: la <em>pop-up store</em> permite presentar y vender una oferta en un espacio temporal.',
         },
         {
           id: 19,
@@ -665,7 +665,7 @@ export default {
         {
           id: 20,
           texto:
-            'Una marca comunica cómo mejoró una camisa a partir de opiniones de usuarios. ¿Qué práctica fortalece su storytelling?',
+            'Una marca comunica cómo mejoró una camisa a partir de opiniones de usuarios. ¿Qué práctica fortalece su <em>storytelling</em>?',
           imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
@@ -694,7 +694,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Relacionó el storytelling con una narración sustentada en hechos verificables.',
+            '¡Muy bien! Relacionó el <em>storytelling</em> con una narración sustentada en hechos verificables.',
           mensaje_incorrecto:
             'Compruebe los hechos del relato: la historia debe corresponder con las acciones y resultados reales.',
         },

@@ -65,7 +65,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Canales de distribución en el Sistema moda',
+        titulo: 'Canales de distribución en el Sistema Moda',
         desarrolloContenidos: true,
         subMenu: [
           {

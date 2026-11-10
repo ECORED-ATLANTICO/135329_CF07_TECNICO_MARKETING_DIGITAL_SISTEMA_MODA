@@ -8,18 +8,6 @@
     p.mb-1 La cultura, las tendencias y los comportamientos de compra aportan elementos para interpretar el mercado. Los canales de distribución, la omnicanalidad y los eventos facilitan el encuentro entre las marcas y sus públicos.
     p.mb-4 El mercadeo integra estos conocimientos mediante decisiones sobre producto, precio, distribución y comunicación. Su aplicación requiere objetivos claros, información verificable y seguimiento para ofrecer experiencias coherentes y orientar mejoras.
 
-    
-             
-    //- .container
-    //-   .row.mb-lg-5.mb-4.justify-content-center.align-items-center
-    //-     .col-lg-12.col-md-12
-    //-       .row.align-items-center.bg-fondo-01.p-4
-    //-         .col-lg-auto.order-1
-    //-           img.d-none.d-lg-flex(src="@/assets/curso/intro/img04.svg", style="max-width: 150px").mx-auto
-    //-         .col-lg.order-2
-    //-           p.mb-0 De igual manera, se analizan el plan de mercadeo y la investigación de mercados como herramientas para la planeación y toma de decisiones, junto con las estrategias de <em>marketing</em> y el <em>marketing online</em> para fortalecer la relación con los clientes y el cumplimiento de los objetivos organizacionales. Finalmente, se estudian las tendencias del <em>marketing</em>, como el <em>neuromarketing</em>, el <em>marketing</em> sensorial y las neuroventas, destacando sus aplicaciones en la comprensión del comportamiento del consumidor y en el diseño de estrategias comerciales orientadas a la creación de valor.
-        
-
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure

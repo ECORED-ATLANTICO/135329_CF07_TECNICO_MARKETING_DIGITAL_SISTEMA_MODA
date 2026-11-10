@@ -113,7 +113,7 @@ figcaption, table caption
     .crd_hover_txt--body
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
       transform: translateY(0)
-      background-color: #83DFE0
+      background-color: #E0E8FC
       // opacity: 0.8
       h4
         color: $color-sistema-texto
@@ -124,11 +124,11 @@ figcaption, table caption
     bottom: 0
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: #83DFE0
+    background-color: #E0E8FC
     h4
       color: $color-sistema-texto
     &.bg-color-2
-      background-color: #DEF1CB
+      background-color: #FCEDF9
     // text-align: center
 
     &.pd-1-3
@@ -142,12 +142,12 @@ figcaption, table caption
   @media (min-width:1200px) and (max-width:1400px)
     .crd_hover_txt--body
       p
-        font-size: 0.85em
+        // font-size: 0.85em
 
   @media screen and ( max-width: $bp-max-sm )
     .crd_hover_txt--body
       p
-        font-size: 0.85em
+        // font-size: 0.85em
 
 //////////////CUSTOM AVATAR-LEFT//////////////
 .tarjeta-avatar-b__img
@@ -158,7 +158,8 @@ figcaption, table caption
     min-width: 80px !important
     top: 0px
 .tarjeta--azul
-  background-color: #F4ECE4
+  background-color: #F0F3FD
+  border: #678AEE 3px solid
 
 //////////CUSTOM TARJETA AVATAR TOP////////////
 .tarjeta-avatar
@@ -209,16 +210,16 @@ figcaption
       background-color: #8C8FEC
 
 .bg-color-c1
-  background-color: #FFF7EB
+  background-color: #EEF2FD
   &.cajon
     &::before
-      background-color: #FEB341
+      background-color: #678AEE
 
 .bg-color-c2
-  background-color: #F0FCFF
+  background-color: #EAECEE
   &.cajon
     &::before
-      background-color: #6EDDF9
+      background-color: #EC5ACA
 
 .bg-color-c3
   background-color: #EEF6FF
@@ -259,7 +260,7 @@ figcaption
     padding-right: 3rem
 
 .bg-fondo-1
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema1/bg05.png") !important
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema2/bg.png") !important
   background-position: center
   background-size: cover
 
@@ -278,21 +279,6 @@ figcaption
   @media screen and ( max-width: $bp-max-md )
     background-size: cover
 
-// .bg-fondo-2
-  // background-image: url("../assets/curso/tema1/img24.png") !important
-//   background-position: center
-//   background-size: cover
-//   border-radius: 25px
-//   @media screen and (max-width: $bp-max-sm)
-//     border-radius: 15px
-
-.bg-fondo-010
-  // background-image: url("../assets/curso/tema3/bg05.png") !important
-  background-position: 50%
-  border-radius: 15px
-  background-size: cover
-  background-size: 100% 100%
-
 .bg-fondo-4
   // background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema1/img13.png") !important
   background-position: center
@@ -308,10 +294,12 @@ figcaption
     border-radius: 15px !important
 
 .bg-fondo-01
-  background-image: url("../assets/curso/intro/bg01.png") !important
+  background-image: url("../assets/curso/tema1/img10.png") !important
   background-position: center
   background-size: 100% 100%
   border-radius: 30px !important
+  .sin-br
+    border-radius: 0px !important
   @media screen and (max-width: $bp-max-md)
     background-size: cover
     border-radius: 15px !important
@@ -590,12 +578,12 @@ figcaption
 
 // Tabs A
 .tabs-a__tab
-  background-color: #FDF1C8 !important
+  background-color: #E0E8FC !important
   white-space: normal
   height: stretch
   // color: # !important
 .tabs-a.color-acento-botones .tabs-a__tab__selected
-  background-color: #F9DD76 !important
+  background-color: #FFD256 !important
   color: $color-sistema-texto !important
 .tabs-a__content-item
   display: flex
@@ -611,7 +599,7 @@ figcaption
     .tabs-a__tab__selected,
     .tabs-a__tab__selected:before,
     .tabs-a__tab:hover
-      background-color: #F9DD76
+      background-color: #FFD256
 
   // Ajuste tamaño contenedor izquierdo Tabs A
   @media (min-width: 1200px)
@@ -698,18 +686,18 @@ figcaption
 
 /////////////ACORDION/////////////
 .acordion__accion__btn--a
-  background-color: #FFFCF1 !important
+  background-color: #FFD256 !important
 
 .acordion__activo
   // background-image: url("../assets/curso/tema2/img19.png") !important
   background-size: cover
   background-position: center
-  background-color: #FDF1C8 !important
+  background-color: #F4F5F6 !important
   &.azul
     background-color: #DFF5FB !important
 
 .acordion_titulo
-  color: #fff !important
+  color: #12263F !important
 .acordion__titulo
   h3
     color: $color-sistema-texto !important
@@ -800,25 +788,25 @@ a, button, div
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
   .col-auto.linea-tiempo-d__item__col-number
     .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
-      background-color: #FBA717 !important
+      background-color: #F4B400 !important
       color: $color-sistema-texto
 
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
   .col
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
-      background-color: #F6F6F6
+      background-color: #F4F5F6
       background-size: cover
       background-position: center
 
 .linea-tiempo-d__item.row:not(.linea-tiempo-d__item--selected)
   .col-auto.linea-tiempo-d__item__col-number
     .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
-      background-color: #E6E6E6
+      background-color: #9CA3AF
     .linea-tiempo-d__item__dots:after
       border-left: 4px dotted #B3B2D4 !important
   .col
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
-      background-color: #D9D9D9 !important
+      background-color: #E0E8FC !important
 
 .linea-tiempo-d__item__content__title
   @media screen and ( max-width: $bp-max-xs )
@@ -845,26 +833,29 @@ a, button, div
       background-color: #7500D3
 
 .bg-color-02
-  background-color: #C3D8E9
+  background-color: #C2D0F8
+
+.bg-color-05
+  background-color: #D7D9DE
 
 .bg-color-05-degrade
   background: linear-gradient(180deg, #FAFAFA 0%, #F5F5F5 100%)
 
 .bg-color-03
-  background-color: #F9DD76
+  background-color: #F1F6FF
   &.bg-color-nuevo
     .acordion__accion__btn--a i, .acordion__accion__btn--b i
       color: $color-sistema-texto
 
 .bg-color-04
-  background-color: #F6A1B4
+  background-color: #E0E8FC
   &.cajon
     background-color: #FEF5F7
     &::before
       background-color: #F6A1B4
 
 .bg-color-06
-  background-color: #FBD9E1
+  background-color: #DEEAFF
 
 .bg-color-07
   background-color: #FFFAE6
@@ -876,13 +867,13 @@ a, button, div
   background-color: #28856A
 
 .bg-color-09
-  background-color: #FBEDFE
+  background-color: #FCEDF9
   &.cajon
     &::before
       background-color: #D800FF
 
 .bg-color-10
-  background-color: #109E91
+  background-color: #E9ECF2
 
 .bg-color-12
   background-color: #F8DBFD
@@ -1003,7 +994,7 @@ a, button, div
   background-color: #C5CFF0
 
 .tarjeta.color-acento-botones--borde
-  background-color: #FEF5F7
+  background-color: #E0E8FC
   // background-image: url("../assets/curso/tema1/bg04.png") !important
   background-size: cover
   background-position: buttom
@@ -1011,23 +1002,23 @@ a, button, div
   border: solid 1px transparent !important
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected:before
-  background-color: #F9DD76 !important
+  background-color: #FFD256 !important
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected:hover
-  background-color: #F9DD76 !important
+  background-color: #FFD256 !important
 
 .tabs-a.color-acento-botones .tabs-a__tab:hover
-  background-color: #F9DD76 !important
+  background-color: #FFD256 !important
   color: $color-sistema-texto !important
 
   //////////////CUSTON SLYDER-A////////
 .slyder-a__bullets__item
-  background-color: #699EC9
-  border: #699EC9
+  background-color: #678AEE
+  border: #678AEE
 .slyder-a__bullets__item--active
-  background-color: #699EC9
+  background-color: #678AEE
 .slyder-a__btn--atrs, .slyder-a__btn--sigt
-  background-color: #FF8C60
+  background-color: #F4B400
   // opacity: 1 !important
 .slyder-a__bullets__item
   @media screen and ( max-width: $bp-max-xs )
@@ -1044,7 +1035,7 @@ a, button, div
   position: relative
   z-index: 2
 .banner-text
-  background-color: #fff !important
+  background-color: #F1F6FF !important
   border-radius: 10px
   padding: 50px
   margin-top: -60px
@@ -1067,23 +1058,25 @@ a, button, div
   border-radius: 20px
 
   //CLASES TITULOS//
+  //CLASES TITULOS//
 .titulo-con-imagen
   display: flex
   align-items: center
 
 .titulo-con-imagen__fondo
-  // dergadado lineal ##EBE037 y ##F5EF96 y #FDFCEA 180deg
-  background: linear-gradient(to right, #EBE037 0%, #F5EF96 25%, #FDFCEA 100%)
+  // dergadado lineal #C7D9F9 y #F0F5FD 180deg
+  // background: linear-gradient(to right, #E7D7FF 0%, #F9F5FF 100%)
+  background-color: #EAE7F0
   border-radius: 18px
   padding: 10px 25px 10px 20px
   display: inline-flex
   align-items: center
-  margin-left: -11px
+  margin-left: -4px
 
 .titulo-con-imagen__fondo_2
-  // dergadado lineal #C7D9F9 y #F0F5FD 180deg
-  // background: linear-gradient(to right, #C7D9F9 0%, #F0F5FD 100%)
-  border: 1px solid #74A2F2
+  // dergadado lineal ##D8F2C6 y ##F9F5FF 180deg
+  background: linear-gradient(to right, #D8F2C6 30%, #F9F5FF 60%)
+  // border: 1px solid #D1B8FA
   border-radius: 18px
   padding: 10px 25px 10px 20px
   display: inline-flex
@@ -1101,27 +1094,30 @@ a, button, div
     transform: translateY(50%)
     width: 40px
     height: 30px
-    background-image: url("../assets/curso/icono-subtitulo.svg")
+    // background-image: url("../assets/curso/icono-subtitulo.svg")
     background-size: 100% 100%
 
 .titulo-con-imagen__imagen
   position: absolute
-  left: 0px
-  width: 90px
+  left: -8px
+  width: 85px
+  @media screen and (max-width: $bp-max-md)
+    width: 70px
+
 .titulo-con-imagen__texto
   margin: 0
-  padding-left: 0px
+  padding-left: 70px
   position: relative
-  &::before
-    content: ""
-    position: absolute
-    right: 15px
-    bottom: -40%
-    transform: translateY(50%)
-    width: 30px
-    height: 30px
-    background-image: url("../assets/curso/icono-subtitulo.svg")
-    background-size: 100% 100%
+  // &::before
+  //   content: ""
+  //   position: absolute
+  //   right: -4px
+  //   bottom: -40%
+  //   transform: translateY(50%)
+  //   width: 40px
+  //   height: 30px
+  //   background-image: url("../assets/curso/icono-subtitulo.svg")
+  //   background-size: 100% 100%
 
 .img-topright
   padding: 4.5rem 2rem 3rem !important
@@ -1159,7 +1155,7 @@ a, button, div
   background-color: #FF8C60 !important
   border: 1px solid #FF8C60 !important
 .acordion__accion__btn--a i, .acordion__accion__btn--b i
-  color: $white
+  color: $color-sistema-texto
 
 .lista-ul
   li
@@ -1366,8 +1362,8 @@ a, button, div
   border: 4px solid #FFFFFF !important
 
 .slyder-f .slyder-f__btn
-  background-color: #FF8C60
-  color: $white
+  background-color: #F4B400
+  color: $color-sistema-texto
 
 // .slyder-f .slyder-f__btn .fa-chevron-left, .slyder-f .slyder-f__btn .fa-chevron-right
 // .barra-avance__boton--regresar span
@@ -1434,7 +1430,9 @@ a, button, div
   width: 100% !important
   @media screen and (max-width: $bp-max-md)
     width: 75% !important
-
+.mx-md-auto
+  @media screen and (max-width: $bp-max-md)
+    margin: 0px auto !important
 .w-sm-75
   width: 75% !important
   @media screen and (max-width: $bp-max-sm)
@@ -1473,8 +1471,8 @@ a, button, div
   table
     // min-width: 100%
   thead
-    border-top: 5px solid #6EDDF9 !important
-    background-color: #F0FCFF !important
+    border-top: 5px solid #678AEE !important
+    background-color: #CEDAF8 !important
     border-bottom: none !important
     border-left: none !important
     border-right: none !important
@@ -1489,7 +1487,7 @@ a, button, div
     tr
       border-bottom: none !important
     tr:nth-child(even)
-      background-color: transparent !important
+      background-color: #EAECEE !important
     tr:nth-child(odd)
       background-color: transparent !important
     td
@@ -1551,3 +1549,11 @@ a, button, div
   background-color: #FDFCEA !important
 .tarjeta-flip.color-primario .tarjeta-flip__contenido
   background-color: #FDFCEA !important
+
+.lista-ul--color li > i:first-of-type
+  font-size: 7px
+
+.text-dark
+  color: $color-sistema-texto !important
+.boton.color-acento-botones *, .color-acento-botones.boton--sm *
+  color: $color-sistema-texto !important
