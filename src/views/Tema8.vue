@@ -25,7 +25,7 @@
       .row.mb-5.justify-content-center.align-items-center
         .col-lg-4.col-md-10.mb-4.mb-lg-0.order-1.order-lg-1
           figure
-            img(src="@/assets/curso/tema8/img02.png", data-aos="zoom-in").mx-auto
+            img(src="@/assets/curso/tema8/img02.png", data-aos="zoom-in", alt="").mx-auto
         .col-lg-8.order-2.order-lg-2.mb-0.mb-lg-0
           p.mb-3 Conocer el mercado permite identificar necesidades, reconocer alternativas y orientar decisiones comerciales. Este análisis reúne la investigación, la comprensión de la demanda y la segmentación del público.
           .container
@@ -37,7 +37,7 @@
         .col-lg-4.col-md-11.mb-4
           .tarjeta-avatar-b.h-100
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema8/img04.svg', alt='Investigación de mercado')
+              img(src='@/assets/curso/tema8/img04.svg', alt='')
             .tarjeta.tarjeta--azul
               .p-4
                 h4 Investigación de mercado
@@ -46,7 +46,7 @@
         .col-lg-4.col-md-11.mb-4
           .tarjeta-avatar-b.h-100
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema8/img05.svg', alt='Tipo y uso')
+              img(src='@/assets/curso/tema8/img05.svg', alt='')
             .tarjeta.tarjeta--azul
               .p-4
                 h4 Demanda
@@ -55,7 +55,7 @@
         .col-lg-4.col-md-11.mb-4
           .tarjeta-avatar-b.h-100
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema8/img06.svg', alt='Tipo y uso')
+              img(src='@/assets/curso/tema8/img06.svg', alt='')
             .tarjeta.tarjeta--azul
               .p-4
                 h4 Segmentación
@@ -85,7 +85,7 @@
       .col-lg-6.col-xl-4.col-md-11.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema8/img08.svg', alt='Investigación de mercado')
+            img(src='@/assets/curso/tema8/img08.svg', alt='')
           .tarjeta.tarjeta--azul
             .p-4
               h4 Objetivos y metas	
@@ -94,7 +94,7 @@
       .col-lg-6.col-xl-4.col-md-11.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema8/img09.svg', alt='Tipo y uso')
+            img(src='@/assets/curso/tema8/img09.svg', alt='')
           .tarjeta.tarjeta--azul
             .p-4
               h4 Identidad de marca
@@ -103,7 +103,7 @@
       .col-lg-12.col-xl-4.col-md-11.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema8/img10.svg', alt='Tipo y uso')
+            img(src='@/assets/curso/tema8/img10.svg', alt='')
           .tarjeta.tarjeta--azul
             .p-4
               h4 <em>Storytelling</em>
@@ -153,7 +153,7 @@
     .row.mb-lg-5.mb-4.justify-content-center.align-items-center
       .col-lg-4.col-md-10.mb-4.mb-lg-0.order-1.order-lg-1
         figure
-          img(src="@/assets/curso/tema8/img11.png", data-aos="zoom-in").mx-auto
+          img(src="@/assets/curso/tema8/img11.png", data-aos="zoom-in", alt="").mx-auto
       .col-lg-8.order-2.order-lg-2.mb-0.mb-lg-0
         p.mb-2 En comunicación digital se deben relacionar objetivo, público, mensaje, formato, canal y acción esperada. Las imágenes y descripciones deben corresponder con el producto; las colaboraciones con creadores requieren afinidad y claridad de participación.
 
@@ -171,7 +171,7 @@
           .row.bg-color-03.br-15.p-0.h-100.justify-content-center.align-content-center
             .col-md-8.col-lg-5.mb-2.mb-lg-0.order-2.order-md-2.order-lg-1.p-0
               figure
-                img(src="@/assets/curso/tema4/img11.png", data-aos="fade-right").w-md-75.mx-md-auto
+                img(src="@/assets/curso/tema4/img11.png", data-aos="fade-right", alt="").w-md-75.mx-md-auto
             .col-lg-6.order-1.order-md-1.order-lg-2.p-4.p-lg-4
               h4 ¿Sabías que?
               p(data-aos="fade-left").mb-4 Lo invitamos a escuchar el siguiente Pódcast: 
@@ -189,7 +189,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.col-md-10.mb-4.mb-lg-0.order-1.order-lg-1
         figure
-          img(src="@/assets/curso/tema8/img11.png", data-aos="zoom-in").mx-auto
+          img(src="@/assets/curso/tema8/img11.png", data-aos="zoom-in", alt="").mx-auto
       .col-lg-8.order-2.order-lg-2.mb-0.mb-lg-0
         p.mb-2 La innovación permite desarrollar o mejorar productos, servicios y procesos. El seguimiento ayuda a comprobar sus resultados y orientar ajustes mediante información.
 

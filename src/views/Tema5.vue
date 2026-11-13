@@ -40,7 +40,7 @@
       .row.mb-lg-5.mb-5.justify-content-center.align-items-center
         .col-lg-4.col-md-8.mb-4.mb-lg-0.order-1.order-lg-1
           figure
-            img(src="@/assets/curso/tema5/img03.png", data-aos="zoom-in").mx-auto
+            img(src="@/assets/curso/tema5/img03.png", data-aos="zoom-in", alt="").mx-auto
         .col-lg-8.order-2.order-lg-2.mb-0.mb-lg-0
           TabsA.color-acento-botones
             .tarjeta.color-acento-botones--borde.p-4(titulo="Tendencia de moda").align-content-center
@@ -177,7 +177,7 @@
     .tarjeta.bg-color-06.p-4.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema5/img07.svg")
+          img(src="@/assets/curso/tema5/img07.svg", alt="")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -275,7 +275,7 @@
     .row.mb-lg-4.mb-4.justify-content-center.align-items-center
       .col-lg-4.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
-          img(src="@/assets/curso/tema5/img09.png", data-aos="zoom-in").mx-auto
+          img(src="@/assets/curso/tema5/img09.png", data-aos="zoom-in", alt="").mx-auto
       .col-lg-8.order-2.order-lg-1.mb-0.mb-lg-0
         p.mb-3 Estas categorías describen la relación con una propuesta específica. Una persona puede adoptar pronto una tecnología y conservar durante años sus preferencias de vestuario.
         .container

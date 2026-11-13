@@ -42,7 +42,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/img04.png", alt="Observar y analizar")
+              img(src="@/assets/curso/tema1/img04.png", alt="")
           .crd_hover_txt--body
             h4.mb-3 Observar y analizar
             p.mb-0 Conocer a las personas, sus actividades y las condiciones de uso. Identificar comportamientos, dificultades y oportunidades de mejora para comprender el contexto.
@@ -51,7 +51,7 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/img05.png", alt="Definir necesidades")
+              img(src="@/assets/curso/tema1/img05.png", alt="")
           .crd_hover_txt--body
             h4.mb-3 Definir necesidades
             p.mb-0 Precisar qué problema o expectativa se atenderá. Establecer los requerimientos y objetivos que orientarán el desarrollo de la solución.
@@ -60,7 +60,7 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/img06.png", alt="Proponer y representar")
+              img(src="@/assets/curso/tema1/img06.png", alt="")
           .crd_hover_txt--body
             h4.mb-3 Proponer y representar
             p.mb-0 Explorar alternativas mediante bocetos, muestras o prototipos. Visualizar las ideas y evaluar su viabilidad antes de desarrollarlas.
@@ -69,16 +69,15 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/img07.png", alt="Desarrollar y verificar")
+              img(src="@/assets/curso/tema1/img07.png", alt="")
           .crd_hover_txt--body
             h4.mb-3 Desarrollar y verificar
             p.mb-0 Comprobar si la solución responde a las necesidades identificadas. Evaluar su funcionamiento y realizar los ajustes necesarios para cumplir los objetivos establecidos.
 
-
     .container
       .row.align-items-center.bg-color-03.br-15.mb-5
         .col-lg-auto.order-2
-          img.d-none.d-lg-flex(src="@/assets/curso/tema1/img08.png", style="max-width: 150px").mx-auto
+          img.d-none.d-lg-flex(src="@/assets/curso/tema1/img08.png", alt="", style="max-width: 150px").mx-auto
         .col-lg.order-1.p-4
           p.mb-0 Estos momentos pueden repetirse. Una prueba de uso puede revelar que es necesario modificar el material o ajustar una parte de la prenda. Los elementos del diseño se organizan en cuatro grupos, los cuales se relacionan y detallan en la siguiente tabla:
 
@@ -118,7 +117,7 @@
         .container
           .row.align-items-center.bg-color-03.br-15.mb-0
             .col-lg-auto.order-2
-              img.d-none.d-lg-flex(src="@/assets/curso/tema1/img09.png", style="max-width: 180px").mx-auto
+              img.d-none.d-lg-flex(src="@/assets/curso/tema1/img09.png", alt="", style="max-width: 180px").mx-auto
             .col-lg.order-1.p-4
               h4 Ejemplo aplicado
               p.mb-0 Una empresa de diseño de vestuario desarrolla una camisa para personas que combinan desplazamientos urbanos y actividades laborales. La propuesta debe considerar movilidad, comodidad, apariencia y cuidado. La comunicación digital deberá explicar los beneficios que puedan comprobarse en el producto.
@@ -135,7 +134,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-5.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
             figure
-              img(src="@/assets/curso/tema1/img11.png", alt="Silueta").mx-auto
+              img(src="@/assets/curso/tema1/img11.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
             h4 Silueta
             p.mb-0 Contorno general que produce la relación entre cuerpo y vestuario. Puede observarse en prendas ajustadas, rectas o amplias. Las formas corporales son diversas; las clasificaciones descriptivas no establecen cuerpos ideales.
@@ -143,7 +142,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-5.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
             figure
-              img(src="@/assets/curso/tema1/img12.png", alt="Volumen").mx-auto
+              img(src="@/assets/curso/tema1/img12.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
             h4 Volumen
             p.mb-0 Espacio ocupado o sugerido por la prenda. Se modifica mediante amplitudes, pliegues, capas, estructuras y características del material.
@@ -151,7 +150,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-5.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
             figure
-              img(src="@/assets/curso/tema1/img13.png", alt="Forma").mx-auto
+              img(src="@/assets/curso/tema1/img13.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
             h4 Forma
             p.mb-0 Configuración de la prenda y de sus partes: cuello, manga, bolsillo, escote o pieza de construcción. Éste elemento dialoga a cómo se percibe de manera externa la prenda ya sea en su apariencia o estructura.
@@ -159,7 +158,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-5.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
             figure
-              img(src="@/assets/curso/tema1/img14.png", alt="Textura").mx-auto
+              img(src="@/assets/curso/tema1/img14.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
             h4 Textura
             p.mb-0 Hace relación al material de una superficie. Existen dos tipos de textura en la moda, la primera se conoce como natural o superpuesta y la segunda como textura con sensación táctil y visual. Una fotografía puede mostrar relieve, pero no permite comprobar todas las sensaciones del material.
@@ -167,7 +166,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-5.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
             figure
-              img(src="@/assets/curso/tema1/img15.png", alt="Color").mx-auto
+              img(src="@/assets/curso/tema1/img15.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
             h4 Color
             p.mb-0 Es uno de los elementos que se perciben con mayor rapidez en el instante de ver por primera vez un diseño. El color tiene una gran influencia en la intención de una colección ya que se encuentra relacionado a generar sensaciones. Por lo tanto, es vital poseer un conocimiento básico de la teoría del color y de cómo se crean y se combinan los colores.
@@ -193,7 +192,7 @@
     .row.mb-lg-5.mb-4.justify-content-center.align-items-center
       .col-lg-4.col-md-10.mb-4.mb-lg-0.order-1.order-lg-1
         figure
-          img(src="@/assets/curso/tema1/img16.png", data-aos="zoom-in").mx-auto
+          img(src="@/assets/curso/tema1/img16.png", data-aos="zoom-in", alt="").mx-auto
       .col-lg-8.order-2.order-lg-2.mb-0.mb-lg-0
         .container
           .row.align-items-center.bg-color-04.mb-3.p-3.br-15
@@ -209,7 +208,7 @@
             .row.mb-lg-0.mb-0.justify-content-center.align-items-center.ms-lg-5.ms-4
               .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-2
                 figure
-                  img(src="@/assets/curso/tema1/img17.png", data-aos="zoom-in").mx-auto
+                  img(src="@/assets/curso/tema1/img17.png", data-aos="zoom-in", alt="").mx-auto
               .col-lg-8.order-1.order-lg-1.mb-4.mb-lg-0
                 p.mb-1 Estos esquemas se construyen a partir de la posición de los colores en el círculo cromático. Permiten crear combinaciones armónicas, contrastantes o equilibradas, según la cercanía o la oposición entre los tonos.
                 ul.lista-ul--color
@@ -236,7 +235,7 @@
             .row.mb-lg-0.mb-0.justify-content-center.align-items-center.ms-5
               .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-2
                 figure
-                  img(src="@/assets/curso/tema1/img18.png", data-aos="zoom-in").mx-auto
+                  img(src="@/assets/curso/tema1/img18.png", data-aos="zoom-in", alt="").mx-auto
               .col-lg-8.order-1.order-lg-1.mb-4.mb-lg-0
                 p.mb-1 Estos esquemas se organizan según la naturaleza de los colores que los componen, su origen y la cantidad de tonos que intervienen en la combinación. Permiten construir paletas a partir de colores fundamentales y de relaciones cromáticas más complejas.
                 ul.lista-ul--color
@@ -257,7 +256,7 @@
             .row.mb-lg-0.mb-0.justify-content-center.align-items-center.ms-5
               .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-2
                 figure
-                  img(src="@/assets/curso/tema1/img19.png", data-aos="zoom-in").mx-auto
+                  img(src="@/assets/curso/tema1/img19.png", data-aos="zoom-in", alt="").mx-auto
               .col-lg-8.order-1.order-lg-1.mb-4.mb-lg-0
                 p.mb-1 Estos esquemas exploran las modificaciones que experimenta un color al cambiar su luminosidad, intensidad o composición. Permiten crear transiciones, profundidad visual y efectos cromáticos particulares.
                 ul.lista-ul--color
@@ -272,7 +271,7 @@
             .row.mb-lg-0.mb-0.justify-content-center.align-items-center.ms-5
               .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-2
                 figure
-                  img(src="@/assets/curso/tema1/img20.png", data-aos="zoom-in").mx-auto
+                  img(src="@/assets/curso/tema1/img20.png", data-aos="zoom-in", alt="").mx-auto
               .col-lg-8.order-1.order-lg-1.mb-4.mb-lg-0
                 p.mb-1 Estos esquemas permiten explorar combinaciones que se apartan de las reglas cromáticas convencionales. Se utilizan para generar tensión, dinamismo, originalidad y propuestas visuales llamativas, especialmente en áreas como la moda, el diseño gráfico y las artes visuales.
                 ul.lista-ul--color
@@ -305,7 +304,7 @@
     .row.mb-lg-5.mb-4.justify-content-center.align-items-center
       .col-lg-4.col-md-10.mb-4.mb-lg-0.order-1.order-lg-1
         figure
-          img(src="@/assets/curso/tema1/img21.png", data-aos="zoom-in").mx-auto
+          img(src="@/assets/curso/tema1/img21.png", data-aos="zoom-in", alt="").mx-auto
       .col-lg-8.order-2.order-lg-2.mb-0.mb-lg-0
         .container
           .row.align-items-center.bg-color-04.mb-3.p-3.br-15

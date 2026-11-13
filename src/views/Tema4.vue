@@ -114,32 +114,32 @@
       .col-lg-8.order-2.order-lg-2.col-md-12.mb-0.mb-lg-0
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-12 col-sm-12 p-3")
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img08.svg', alt='Autoafirmación', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema4/img08.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center Autoafirmación
             p.text-center.mb-0 El vestuario puede participar en la expresión de la identidad. Una persona selecciona prendas con las que se siente representada y puede combinarlas de una manera particular.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img08.svg', alt='Convergencia', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema4/img08.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center Convergencia
             p.text-center.mb-0 Las elecciones pueden compartir referentes y características. Por ejemplo, integrantes de una comunidad vinculada con una actividad pueden adoptar elementos de vestuario semejantes.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img08.svg', alt='Autonomía', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema4/img08.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center Autonomía
             p.text-center.mb-0 Las personas pueden seleccionar, adaptar o rechazar propuestas disponibles. Adoptar una tendencia no implica reproducirla de la misma manera que otros.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img08.svg', alt='Personalización', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema4/img08.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center Personalización
             p.text-center.mb-0 Los creadores y referentes reconocibles pueden influir en la interpretación de una propuesta. Sus decisiones de diseño contribuyen a construir un estilo identificable.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img08.svg', alt='Simbolización', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema4/img08.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center Simbolización
             p.text-center.mb-0 Las prendas y marcas pueden asociarse con significados, como formalidad, pertenencia o diferenciación. Estos significados deben interpretarse según el contexto.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema4/img08.svg', alt='Imperio', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema4/img08.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center Imperio
             p.text-center.mb-0 Denominación del material base para analizar cómo la influencia de la moda se extiende hacia ámbitos como música, deporte, cine y entretenimiento.
 
@@ -161,7 +161,7 @@
       .col-lg-6.col-xl-4.col-md-11.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema4/img09.svg', alt='Categoría')
+            img(src='@/assets/curso/tema4/img09.svg', alt='')
           .tarjeta.tarjeta--azul
             .p-4
               p.mb-0 <b>Describir:</b> identificar y registrar de manera objetiva los elementos visibles de la campaña, como prendas, colores, texturas, personas, escenarios, poses, gestos, iluminación, composición y acciones. Esta etapa se centra en reconocer qué aparece y cómo se presenta, sin atribuir significados ni emitir juicios personales.
@@ -169,7 +169,7 @@
       .col-lg-6.col-xl-4.col-md-11.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema4/img09.svg', alt='Tipo y uso')
+            img(src='@/assets/curso/tema4/img09.svg', alt='')
           .tarjeta.tarjeta--azul
             .p-4
               p.mb-0 <b>Interpretar:</b> analizar cómo los elementos visuales, estéticos y narrativos pueden transmitir ideas, emociones, valores o mensajes. Se consideran aspectos como el estilo, la identidad de marca, el público objetivo, los códigos culturales y las posibles asociaciones simbólicas, reconociendo que una misma imagen puede generar diferentes interpretaciones.
@@ -178,7 +178,7 @@
       .col-lg-6.col-xl-4.col-md-11.mb-4
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema4/img09.svg', alt='Verificar')
+            img(src='@/assets/curso/tema4/img09.svg', alt='')
           .tarjeta.tarjeta--azul
             .p-4
               p.mb-0 <b>Verificar:</b> contrastar las interpretaciones con información comprobable sobre la campaña, sus objetivos, la marca, los participantes, el contexto de producción y los mensajes difundidos oficialmente. Este proceso permite distinguir los hechos de las suposiciones y determinar si las conclusiones están respaldadas por evidencias suficientes.

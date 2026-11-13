@@ -78,7 +78,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img04.png", alt="Canales tradicionales")
+              img(src="@/assets/curso/tema3/img04.png", alt="")
           .crd_hover_txt--body.bg-color-2
             h4.mb-3 Canales tradicionales
             p.mb-0 Desarrollan la compraventa principalmente mediante atención directa y procedimientos con poca automatización. Una tienda puede mantener esta forma de atención aunque utilice herramientas digitales de apoyo.
@@ -87,7 +87,7 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img05.png", alt="Canales automatizados")
+              img(src="@/assets/curso/tema3/img05.png", alt="")
           .crd_hover_txt--body.bg-color-2
             h4.mb-3 Canales automatizados
             p.mb-0 Incorporan sistemas que ejecutan determinadas operaciones, como registrar pedidos o permitir pagos mediante dispositivos de autoservicio.
@@ -96,7 +96,7 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img06.png", alt="Canales audiovisuales")
+              img(src="@/assets/curso/tema3/img06.png", alt="")
           .crd_hover_txt--body.bg-color-2
             h4.mb-3 Canales audiovisuales
             p.mb-0 Utilizan medios como televisión o transmisiones de video para presentar la oferta. La compra puede completarse por teléfono, internet u otro medio.
@@ -105,7 +105,7 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/img07.png", alt="Canales electrónicos")
+              img(src="@/assets/curso/tema3/img07.png", alt="")
           .crd_hover_txt--body.bg-color-2
             h4.mb-3 Canales electrónicos
             p.mb-0 Permiten desarrollar operaciones comerciales mediante internet, como una tienda virtual o una plataforma de comercio electrónico.
@@ -347,7 +347,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-5.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
             figure
-              img(src="@/assets/curso/tema3/img14.png", alt="1. Descubrimiento").mx-auto
+              img(src="@/assets/curso/tema3/img14.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
             h4.mb-2 1. Descubrimiento
             p.mb-1 #[b Situación]
@@ -358,7 +358,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-5.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
             figure
-              img(src="@/assets/curso/tema3/img15.png", alt="2. Consulta").mx-auto
+              img(src="@/assets/curso/tema3/img15.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
             h4.mb-2 2. Consulta
             p.mb-1 #[b Situación]
@@ -369,7 +369,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-5.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
             figure
-              img(src="@/assets/curso/tema3/img16.png", alt="3. Atención").mx-auto
+              img(src="@/assets/curso/tema3/img16.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
             h4.mb-2 3. Atención
             p.mb-1 #[b Situación]
@@ -380,7 +380,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-5.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
             figure
-              img(src="@/assets/curso/tema3/img17.png", alt="4. Compra").mx-auto
+              img(src="@/assets/curso/tema3/img17.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
             h4.mb-2 4. Compra
             p.mb-1 #[b Situación]
@@ -391,7 +391,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-5.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
             figure
-              img(src="@/assets/curso/tema3/img18.png", alt="5. Posventa").mx-auto
+              img(src="@/assets/curso/tema3/img18.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
             h4.mb-2 5. Posventa
             p.mb-1 #[b Situación]
@@ -411,7 +411,7 @@
     .row.mb-lg-5.mb-4.justify-content-center.align-items-center
       .col-lg-4.col-md-10.mb-4.mb-lg-0.order-1.order-lg-1
         figure
-          img(src="@/assets/curso/tema3/img19.png", data-aos="zoom-in").mx-auto
+          img(src="@/assets/curso/tema3/img19.png", data-aos="zoom-in", alt="").mx-auto
       .col-lg-8.order-2.order-lg-2.mb-0.mb-lg-0
         .container
           .row.align-items-center.bg-color-06.mb-3.p-3.br-15

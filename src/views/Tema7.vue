@@ -101,37 +101,37 @@
       .col-lg-8.order-2.order-lg-2.col-md-12.mb-0.mb-lg-0
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-12 col-sm-12 p-3").mb-0
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema7/img07.svg', alt='Desfile', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema7/img07.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center Desfile
             p.text-center.mb-0 Presenta prendas en movimiento y comunica el concepto de una colección. Puede corresponder a <em>prêt-à-porter</em>, alta costura o colecciones de temporada y crucero, según la propuesta.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema7/img07.svg', alt='Showroom', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema7/img07.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center <em>Showroom</em>
             p.text-center.mb-0 Facilita la revisión cercana de productos, materiales y referencias. Puede dirigirse a compradores profesionales, prensa u otros públicos seleccionados.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema7/img07.svg', alt='Evento patrocinado', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema7/img07.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center Evento patrocinado
             p.text-center.mb-0 Integra marcas o aliados que aportan recursos y participan en una experiencia. Su selección requiere afinidad entre propósito, participantes y público.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema7/img07.svg', alt='Street event', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema7/img07.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center <em>Street event</em>
             p.text-center.mb-0 Desarrolla una acción de moda o marca en un espacio urbano. Su realización requiere planear la participación del público y las condiciones de uso del lugar.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema7/img07.svg', alt='Evento con blogueros o creadores de contenido', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema7/img07.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center Evento con blogueros o creadores de contenido
             p.text-center.mb-0 Presenta una propuesta a personas que producen contenidos para determinadas audiencias. La afinidad con la marca y la claridad de la colaboración orientan su selección.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema7/img07.svg', alt='Fashion experience', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema7/img07.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center <em>Fashion experience</em>
             p.text-center.mb-0 Combina producto, relato y participación mediante elementos como instalaciones, demostraciones o actividades sensoriales.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
-            img(src='@/assets/curso/tema7/img07.svg', alt='Pop-up store', style="max-width: 90px;").mx-auto.mb-3
+            img(src='@/assets/curso/tema7/img07.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
             h4.text-center <em>Pop-up store</em>
             p.text-center.mb-0 Espacio comercial temporal que permite presentar y vender una oferta, explorar una ubicación o acercarse a un público.
 

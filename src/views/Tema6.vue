@@ -111,7 +111,6 @@
           h5.text-bold Figura 2.
           span Caracterización para construir el perfil de una marca.
         img.mb-0(data-aos="zoom-in-down", src="@/assets/curso/tema6/img06.png", alt="La figura 2  ilustra los aspectos clave y las preguntas orientadoras que ayudan a construir el perfil de una marca. Dentro de los aspectos claves a considerar se encuentran:  la necesidad, las actividades y ocasión del uso, los atributos valorados, el presupuesto, los canales consultados, las barreras y las evidencias.")
-        //- img.mb-0.d-lg-none(data-aos="zoom-in-down", src="@/assets/curso/tema6/img07.png", alt="La figura 2  ilustra los aspectos clave y las preguntas orientadoras que ayudan a construir el perfil de una marca. Dentro de los aspectos claves a considerar se encuentran:  la necesidad, las actividades y ocasión del uso, los atributos valorados, el presupuesto, los canales consultados, las barreras y las evidencias.")
 
 
     .row.justify-content-center.mb-4
