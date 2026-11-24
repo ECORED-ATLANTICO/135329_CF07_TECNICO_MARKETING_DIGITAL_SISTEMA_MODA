@@ -11,7 +11,7 @@
     .row.mb-lg-4.mb-4.justify-content-center.align-items-center
       .col-lg-4.col-md-8.mb-4.mb-lg-0.order-1.order-lg-1
         figure
-          img(src="@/assets/curso/intro/img01.png", data-aos="zoom-in").mx-auto
+          img(src="@/assets/curso/intro/img01.png", data-aos="zoom-in", alt="").mx-auto
       .col-lg-8.order-2.order-lg-2.mb-0.mb-lg-0
         p.mb-3 El Sistema Moda reúne actividades de diseño, producción, comercialización y consumo de prendas y accesorios. Su comprensión permite reconocer cómo se relacionan los productos con la cultura, las tendencias y las necesidades de las personas.
 

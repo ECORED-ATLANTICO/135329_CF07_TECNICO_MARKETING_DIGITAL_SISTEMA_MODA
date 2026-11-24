@@ -135,7 +135,7 @@ export default {
         {
           id: 4,
           texto:
-            'Un fabricante vende prendas a una boutique, que las comercializa al consumidor final. ¿Qué canal utiliza?',
+            'Un fabricante vende prendas a una <em>boutique</em>, que las comercializa al consumidor final. ¿Qué canal utiliza?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
@@ -163,7 +163,7 @@ export default {
           mensaje_correcto:
             '¡Muy bien! Reconoció un canal corto porque participa un minorista entre fabricante y consumidor.',
           mensaje_incorrecto:
-            'Identifique los participantes: fabricante, boutique y consumidor conforman un canal corto.',
+            'Identifique los participantes: fabricante, <em>boutique</em> y consumidor conforman un canal corto.',
         },
         {
           id: 5,

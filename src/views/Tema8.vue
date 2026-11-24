@@ -213,17 +213,17 @@
                 th Indicador posible
             tbody
               tr
-                td Generar reconocimiento.
-                td Alcance en el público definido.
+                td Generar reconocimiento
+                td Alcance en el público definido
               tr
-                td Aumentar interés comercial.
-                td Consultas calificadas.
+                td Aumentar interés comercial
+                td Consultas calificadas
               tr
-                td Favorecer compras digitales.
-                td Pedidos respecto a sesiones de la tienda.
+                td Favorecer compras digitales
+                td Pedidos respecto a sesiones de la tienda
               tr
-                td Mejorar atención.
-                td Tiempo de respuesta y resolución.
+                td Mejorar atención
+                td Tiempo de respuesta y resolución
 
     .row.justify-content-center.mb-5
       .col-lg-10

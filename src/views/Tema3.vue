@@ -56,7 +56,7 @@
             .tarjeta.color-acento-botones--borde.p-4(titulo="Canal directo").align-content-center
               p.mb-0 El productor o la marca vende al consumidor sin un intermediario comercial. Por ejemplo, una empresa comercializa sus propias prendas mediante su tienda física o virtual.
             .tarjeta.color-acento-botones--borde.p-4(titulo="Canal corto").align-content-center
-              p.mb-0 Participa un intermediario minorista entre el productor y el consumidor. Por ejemplo, una boutique compra prendas a un fabricante y las vende al público.
+              p.mb-0 Participa un intermediario minorista entre el productor y el consumidor. Por ejemplo, una <em>boutique</em> compra prendas a un fabricante y las vende al público.
             .tarjeta.color-acento-botones--borde.p-4(titulo="Canal largo").align-content-center
               p.mb-0 Intervienen varios niveles comerciales, como mayoristas y minoristas. Por ejemplo, un fabricante vende a un distribuidor que abastece diferentes tiendas.
 
@@ -81,7 +81,7 @@
               img(src="@/assets/curso/tema3/img04.png", alt="")
           .crd_hover_txt--body.bg-color-2
             h4.mb-3 Canales tradicionales
-            p.mb-0 Desarrollan la compraventa principalmente mediante atención directa y procedimientos con poca automatización. Una tienda puede mantener esta forma de atención aunque utilice herramientas digitales de apoyo.
+            p.mb-0 Desarrollan la compraventa principalmente mediante atención directa y procedimientos con poca automatización. Una tienda puede mantener esta forma de atención, aunque utilice herramientas digitales de apoyo.
 
       .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
@@ -142,8 +142,8 @@
     .row.justify-content-center.mb-4
       .col-lg-10.mb-lg-0
         .cajon.bg-color-c2.px-5.py-4.h-100.align-content-center
-          h4 Ejercicio práctico
-          p.mb-0 Una empresa vende su producción en una tienda propia y abastece una boutique independiente. En el primer caso utiliza un canal directo; en el segundo, un canal corto.
+          h4 Ejemplo aplicado
+          p.mb-0 Una empresa vende su producción en una tienda propia y abastece una <em>boutique</em> independiente. En el primer caso utiliza un canal directo; en el segundo, un canal corto.
           p.mb-0 Si una transportadora entrega los pedidos de la tienda virtual, presta un servicio logístico. Esto no la convierte automáticamente en un intermediario de venta.
 
 
@@ -207,7 +207,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10.mb-lg-0
         .cajon.bg-color-c2.px-5.py-4.h-100.align-content-center
-          h4 Ejercicio práctico
+          h4 Ejemplo aplicado
           p.mb-0 Una persona consulta una camisa en la tienda virtual de una empresa de moda. La ficha muestra fotografías, composición y precio, pero no incluye medidas. Antes de comprar, necesita resolver una duda sobre el ajuste.
           p.mb-0 Completar la guía de medidas puede facilitar su decisión y reducir consultas repetidas. La mejora debe responder a la información que el cliente necesita.
 
@@ -229,7 +229,7 @@
         .bg-fondo-01.px-lg-5.py-lg-5.px-4.py-4.mb-0(style="border-radius: 0px !important")
           SlyderA(tipo="b").bg-color-white.p-lg-4.p-2.tarjeta
             .row.p-3
-              h4 Boutique
+              h4 <em>Boutique</em>
               p.mb-0 Ofrece una selección de productos vinculada con un público, estilo o propuesta particular. Puede comercializar una marca o varias.
 
             .row.p-3
@@ -349,7 +349,7 @@
             figure
               img(src="@/assets/curso/tema3/img14.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
-            h4.mb-2 1. Descubrimiento
+            h4.mb-2 A. Descubrimiento
             p.mb-1 #[b Situación]
             p.mb-2 El cliente observa una chaqueta en una publicación.
             p.mb-1 #[b Coordinación necesaria]
@@ -360,7 +360,7 @@
             figure
               img(src="@/assets/curso/tema3/img15.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
-            h4.mb-2 2. Consulta
+            h4.mb-2 B. Consulta
             p.mb-1 #[b Situación]
             p.mb-2 Ingresa a la tienda virtual para revisar características.
             p.mb-1 #[b Coordinación necesaria]
@@ -371,7 +371,7 @@
             figure
               img(src="@/assets/curso/tema3/img16.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
-            h4.mb-2 3. Atención
+            h4.mb-2 C. Atención
             p.mb-1 #[b Situación]
             p.mb-2 Pregunta por mensajería si puede probarla en una tienda.
             p.mb-1 #[b Coordinación necesaria]
@@ -382,7 +382,7 @@
             figure
               img(src="@/assets/curso/tema3/img17.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
-            h4.mb-2 4. Compra
+            h4.mb-2 D. Compra
             p.mb-1 #[b Situación]
             p.mb-2 Visita el establecimiento y solicita la referencia consultada.
             p.mb-1 #[b Coordinación necesaria]
@@ -393,7 +393,7 @@
             figure
               img(src="@/assets/curso/tema3/img18.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
-            h4.mb-2 5. Posventa
+            h4.mb-2 E. Posventa
             p.mb-1 #[b Situación]
             p.mb-2 Solicita orientación sobre cuidado o cambios.
             p.mb-1 #[b Coordinación necesaria]
@@ -404,7 +404,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10.mb-lg-0
         .cajon.bg-color-c2.px-5.py-4.h-100.align-content-center
-          h4 Ejercicio práctico
+          h4 Ejemplo aplicado
           p.mb-0 Un cliente consulta una chaqueta disponible en una tienda virtual y solicita probarla en el establecimiento. La persona que atiende verifica la referencia, la talla y la disponibilidad antes de confirmar la visita.
           p.mb-0 Esta coordinación conecta la consulta digital con la atención presencial. Si la disponibilidad no se verifica, el cliente puede desplazarse sin encontrar la prenda.
 

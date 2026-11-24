@@ -88,7 +88,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10.mb-lg-0
         .cajon.bg-color-c2.px-5.py-4.h-100.align-content-center
-          h4 Ejercicio práctico
+          h4 Ejemplo aplicado
           p.mb-0 Una empresa de moda prepara una publicación sobre una colección realizada con un colectivo artesanal. Antes de presentar el contenido, verifica quiénes participaron, qué técnicas se utilizaron y cuáles fueron sus aportes.
           p.mb-0 Con esta información puede explicar la colaboración y reconocer a sus participantes. Una fotografía de un tejido, por sí sola, no permite afirmar que existe una relación con una comunidad.
 
@@ -187,13 +187,19 @@
     .row.justify-content-center.mb-5
       .col-lg-10.mb-lg-0
         .cajon.bg-color-c2.px-5.py-4.h-100.align-content-center
-          h4 Ejercicio práctico
+          h4 Ejemplo aplicado
           p.mb-0 La campaña de una empresa de moda, muestra a tres personas que combinan una misma camisa de maneras diferentes. En la imagen se observa una prenda compartida y elecciones particulares de accesorios.
           p.mb-0 La situación puede analizarse mediante convergencia y autonomía: existe un elemento común, pero cada combinación es diferente. Para conocer las motivaciones de las personas sería necesario consultar información adicional.
 
 
+    
+    .container
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12.bg-color-06.p-4.br-15
+          p.mb-0 Para complementar los conocimientos sobre cultura de moda, se invita a consultar el pódcast La moda comunica identidad, que explora las relaciones entre vestuario, cultura y expresión personal, y su importancia para representar la diversidad en la comunicación de una marca.
+    
     .row.mb-lg-5.mb-4.justify-content-center
-      .col-lg-7.col-md-12.mb-0.mb-lg-0.order-2.order-lg-2
+      .col-lg-7.col-md-12.mb-4.mb-lg-0.order-1.order-lg-1
         .container.h-100
           .row.bg-color-03.br-15.p-0.h-100.justify-content-center.align-content-center
             .col-md-8.col-lg-5.mb-2.mb-lg-0.order-2.order-md-2.order-lg-1.p-0
@@ -208,19 +214,13 @@
                 :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
               )
 
-      .col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0
+      .col-lg-5.order-2.order-lg-2.mb-0.mb-lg-0
         .container
           .row.align-items-center.bg-color-c1.mb-3.p-3.br-15
             .col-lg-12
-              p.mb-0 Para complementar los conocimientos sobre cultura de moda, se invita a consultar el pódcast La moda comunica identidad, que explora las relaciones entre vestuario, cultura y expresión personal, y su importancia para representar la diversidad en la comunicación de una marca.
-        p.mb-0 La cultura permite comprender que el vestuario adquiere significados según las personas y sus contextos. La sociología de la moda aporta herramientas para analizar relaciones de identidad, pertenencia y diferenciación, sin reducir las elecciones a características fijas de un grupo.
+              p.mb-0 La cultura permite comprender que el vestuario adquiere significados según las personas y sus contextos. La sociología de la moda aporta herramientas para analizar relaciones de identidad, pertenencia y diferenciación, sin reducir las elecciones a características fijas de un grupo.
+        p.mb-0 En <em>marketing</em> digital, esta comprensión favorece representaciones respetuosas y mensajes contextualizados. También prepara el análisis de las tendencias, que permiten observar cómo cambian y circulan las propuestas de moda y consumo.
         
-    
-
-    .container
-      .row.justify-content-center.align-items-center.mb-3
-        .col-lg-12.bg-color-06.p-4.br-15
-          p.mb-0.text-center En <em>marketing</em> digital, esta comprensión favorece representaciones respetuosas y mensajes contextualizados. También prepara el análisis de las tendencias, que permiten observar cómo cambian y circulan las propuestas de moda y consumo.
 
 </template>
 

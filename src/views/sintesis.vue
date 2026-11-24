@@ -15,7 +15,7 @@
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/bullets/icono-pdf.svg")
+            img(src="@/assets/bullets/icono-pdf.svg", alt="")
           .anexo__texto
             p Anexo. Síntesis
 

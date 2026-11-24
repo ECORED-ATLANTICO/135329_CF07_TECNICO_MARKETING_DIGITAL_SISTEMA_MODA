@@ -101,7 +101,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10.mb-lg-0
         .cajon.bg-color-c2.px-5.py-4.h-100.align-content-center
-          h4 Ejercicio práctico
+          h4 Ejemplo aplicado
           p.mb-0 Una empresa de moda observa publicaciones sobre bolsos pequeños. Antes de incorporarlos a su oferta, revisa si aparecen en otras fuentes, qué usos se proponen y qué necesidades expresan sus clientes.
           p.mb-0 Esta revisión permite distinguir entre un contenido visible y una oportunidad pertinente para la marca. Todavía sería necesario comprobar aspectos como capacidad, comodidad y disposición de compra.
 
@@ -136,32 +136,32 @@
           img(src="@/assets/curso/tema5/img05.png", data-aos="zoom-in", alt="").w-md-75.mx-auto
       .col-lg-8.order-2.order-lg-2.col-md-12.mb-0.mb-lg-0
         LineaTiempoD.color-primario
-          .row(numero="1" titulo="Definir la pregunta")
+          .row(numero="A" titulo="Definir la pregunta")
             .col-md-12
               p.mb-2 Precisar qué se necesita conocer y cuál es el objetivo de la investigación. La pregunta debe ser concreta y estar relacionada con una necesidad del mercado, un comportamiento del consumidor o una oportunidad de innovación.
               p.mb-0 #[b Ejemplo:] ¿Qué características buscan los clientes en las prendas diseñadas para desplazarse en bicicleta?
 
-          .row(numero="2" titulo="Delimitar el contexto")
+          .row(numero="B" titulo="Delimitar el contexto")
             .col-md-12
               p.mb-2 Establecer el público objetivo, el territorio geográfico, la categoría de producto y el periodo de observación. Esta delimitación permite enfocar la investigación y obtener información pertinente para el contexto analizado.
               p.mb-0 #[b Ejemplo:] Jóvenes y adultos que utilizan la bicicleta como medio de transporte urbano en Bucaramanga durante el último año.
 
-          .row(numero="3" titulo="Seleccionar fuentes")
+          .row(numero="C" titulo="Seleccionar fuentes")
             .col-md-12
               p.mb-2 Combinar diferentes fuentes para obtener una visión amplia del mercado. Se pueden consultar clientes potenciales, encuestas, entrevistas, observación de establecimientos comerciales, catálogos de marcas, redes sociales, informes de mercado y publicaciones sectoriales recientes.
               p.mb-0 La selección debe considerar la actualidad, la relevancia y la confiabilidad de cada fuente.
 
-          .row(numero="4" titulo="Registrar señales")
+          .row(numero="D" titulo="Registrar señales")
             .col-md-12
               p.mb-2 Documentar los comportamientos, preferencias, novedades y cambios identificados durante la investigación. Cada registro debe incluir qué se observó, dónde y cuándo ocurrió, cuál es la fuente y qué alcance tiene la información.
               p.mb-0 También es importante conservar evidencias, como fotografías autorizadas, comentarios de consumidores, referencias de productos o datos de ventas, cuando estén disponibles.
 
-          .row(numero="5" titulo="Contrastar información")
+          .row(numero="E" titulo="Contrastar información")
             .col-md-12
               p.mb-2 Comparar los hallazgos obtenidos en diferentes fuentes para identificar coincidencias, diferencias y posibles patrones. Este proceso permite distinguir entre una observación aislada y una señal que aparece de manera recurrente en distintos contextos.
               p.mb-0 Se deben considerar posibles sesgos, diferencias entre segmentos de consumidores y contradicciones que requieran una revisión adicional.
 
-          .row(numero="6" titulo="Interpretar y verificar")
+          .row(numero="F" titulo="Interpretar y verificar")
             .col-md-12
               p.mb-2 Analizar las señales identificadas para comprender qué significan para el mercado y cómo podrían influir en el diseño, desarrollo o comercialización de productos. A partir de los hallazgos, se pueden formular oportunidades de innovación, hipótesis de consumo o posibles líneas de acción.
               p.mb-0 Antes de tomar decisiones, es necesario identificar qué información falta por comprobar y definir cómo validarla, por ejemplo, mediante entrevistas, pruebas de producto, prototipos o estudios adicionales.

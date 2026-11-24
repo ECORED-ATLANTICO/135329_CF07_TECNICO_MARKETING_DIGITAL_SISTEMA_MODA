@@ -74,23 +74,23 @@
           img(src="@/assets/curso/tema6/img05.png", data-aos="zoom-in", alt="")
       .col-lg-9.order-2.order-lg-1.col-md-12.mb-0.mb-lg-0
         LineaTiempoD.color-primario
-          .row(numero="1" titulo="Tradicional")
+          .row(numero="A" titulo="Tradicional")
             .col-md-12
               p.mb-0 Prefiere continuidad en su vestuario y referencias conocidas. Puede valorar determinados protocolos y características que reconoce en sus prendas habituales.
 
-          .row(numero="2" titulo="Neotradicional")
+          .row(numero="B" titulo="Neotradicional")
             .col-md-12
               p.mb-0 Conserva referentes habituales e incorpora novedades de manera selectiva. Puede adaptar elementos actuales a combinaciones conocidas.
 
-          .row(numero="3" titulo="Contemporáneo")
+          .row(numero="C" titulo="Contemporáneo")
             .col-md-12
               p.mb-0 Explora propuestas relacionadas con cambios en sus actividades y formas de vida. Puede valorar versatilidad y adaptación a distintos contextos.
 
-          .row(numero="4" titulo="Vanguardista")
+          .row(numero="D" titulo="Vanguardista")
             .col-md-12
               p.mb-0 Muestra disposición a experimentar con propuestas menos extendidas y combinaciones poco habituales.
 
-          .row(numero="5" titulo="Exhibicionista")
+          .row(numero="E" titulo="Exhibicionista")
             .col-md-12
               p.mb-0 Denominación del material original para describir una búsqueda de visibilidad y diferenciación estética. Debe emplearse con cuidado, sin convertirla en un juicio sobre la persona.
 

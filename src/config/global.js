@@ -227,7 +227,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
+        download: 'downloads/135329_CF07_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -419,6 +419,11 @@ export default {
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
+        {
+          nombre: 'Nicolas Cruz',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
         {
           nombre: 'María Fernanda Morales Angulo',
           cargo: 'Evaluadora instruccional',

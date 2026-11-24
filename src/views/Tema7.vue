@@ -117,7 +117,7 @@
 
           .tarjeta.bg-color-8.p-4.h-100.br-15
             img(src='@/assets/curso/tema7/img07.svg', alt='', style="max-width: 90px;").mx-auto.mb-3
-            h4.text-center <em>Street event</em>
+            h4.text-center <em>Street</em> evento
             p.text-center.mb-0 Desarrolla una acción de moda o marca en un espacio urbano. Su realización requiere planear la participación del público y las condiciones de uso del lugar.
 
           .tarjeta.bg-color-8.p-4.h-100.br-15

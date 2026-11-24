@@ -13,7 +13,8 @@
           :style="{'background-image': `url(${require_src('@/assets/curso/tema1/img01.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 El Sistema Moda integra actores y actividades relacionados con el diseño, la producción, la comercialización, el uso y el aprovechamiento de prendas y accesorios. Proveedores, diseñadores, fabricantes, comerciantes y consumidores se relacionan para responder a las necesidades del mercado.
+          p.mb-2 El Sistema Moda integra actores y actividades relacionados con el diseño, la producción, la comercialización, el uso y el aprovechamiento de prendas y accesorios. Proveedores, diseñadores, fabricantes, comerciantes y consumidores se relacionan para responder a las necesidades del mercado.
+          p.mb-0 En <em>marketing</em> digital, comprender estas relaciones permite comunicar el valor de los productos mediante información clara sobre sus características, beneficios, cuidados y disponibilidad.
 
 
       .row.justify-content-center.align-items-center.mb-3
@@ -153,7 +154,7 @@
               img(src="@/assets/curso/tema1/img13.png", alt="").mx-auto
           .col-lg-7.order-1.order-lg-1.mb-4.mb-lg-0
             h4 Forma
-            p.mb-0 Configuración de la prenda y de sus partes: cuello, manga, bolsillo, escote o pieza de construcción. Éste elemento dialoga a cómo se percibe de manera externa la prenda ya sea en su apariencia o estructura.
+            p.mb-0 Configuración de la prenda y de sus partes: cuello, manga, bolsillo, escote o pieza de construcción. Este elemento dialoga a cómo se percibe de manera externa la prenda ya sea en su apariencia o estructura.
 
         .row.justify-content-center.align-items-center.p-4
           .col-lg-5.col-md-10.mb-0.mb-lg-0.order-2.order-lg-2
@@ -204,7 +205,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12.mb-0
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-05" data-aos="zoom-in").mb-0
-          .tarjeta(titulo="1. Esquemas basados en la relación entre los colores")
+          .tarjeta(titulo="A. Esquemas basados en la relación entre los colores")
             .row.mb-lg-0.mb-0.justify-content-center.align-items-center.ms-lg-5.ms-4
               .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-2
                 figure
@@ -231,7 +232,7 @@
                     i.fas.fa-circle.fa-xs.mt-2(style="max-width:50px")
                     p.mb-0 #[b Esquema monocromático:] utiliza un tono en combinación con cualquiera de sus tintes y matices, o con todos los presentes.
 
-          .tarjeta(titulo="2. Esquemas basados en la composición y combinación cromática")
+          .tarjeta(titulo="B. Esquemas basados en la composición y combinación cromática")
             .row.mb-lg-0.mb-0.justify-content-center.align-items-center.ms-5
               .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-2
                 figure
@@ -252,7 +253,7 @@
                     i.fas.fa-circle.fa-xs.mt-2(style="max-width:50px")
                     p.mb-0 #[b Esquema de tétradas:] está formado por dos pares de colores complementarios, para obtener una combinación de cuatro colores. Con esta combinación se logran resultados muy llamativos.
 
-          .tarjeta(titulo="3. Esquemas basados en la variación, neutralización y complejidad del color")
+          .tarjeta(titulo="C. Esquemas basados en la variación, neutralización y complejidad del color")
             .row.mb-lg-0.mb-0.justify-content-center.align-items-center.ms-5
               .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-2
                 figure
@@ -267,7 +268,7 @@
                     i.fas.fa-circle.fa-xs.mt-2(style="max-width:50px")
                     p.mb-0 #[b Colores complejos:] son aquellos colores que, al combinarse, representan cambios de textura o matiz. Entre ellos se encuentran los colores metalizados y los fluorescentes.
 
-          .tarjeta(titulo="4. Esquemas basados en la experimentación y el contraste visual")
+          .tarjeta(titulo="D. Esquemas basados en la experimentación y el contraste visual")
             .row.mb-lg-0.mb-0.justify-content-center.align-items-center.ms-5
               .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-2
                 figure
@@ -279,7 +280,7 @@
                     i.fas.fa-circle.fa-xs.mt-2(style="max-width:50px")
                     p.mb-0 #[b Discordancia y disonancia:] en este tipo de combinación se puede experimentar con colores que no necesariamente siguen las reglas tradicionales de armonía. En el sector de la moda suele utilizarse para generar una estructura visual que integre las prendas y produzca una unidad visual llamativa.
 
-          .tarjeta(titulo="5. Paletas basadas en la temperatura del color")
+          .tarjeta(titulo="E. Paletas basadas en la temperatura del color")
             .row.mb-lg-0.mb-0.justify-content-center.align-items-center.ms-5
               .col-lg-12
                 p.mb-1 Estas paletas se clasifican según la percepción térmica que transmiten los colores. Permiten generar sensaciones visuales diferentes y organizar combinaciones de acuerdo con su carácter cálido o frío, considerando también las variaciones de luminosidad.
@@ -297,7 +298,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10.mb-lg-0
         .cajon.bg-color-c2.px-5.py-4.h-100.align-content-center
-          h4 Ejercicio práctico
+          h4 Ejemplo aplicado
           p.mb-0 Una colección de prendas azules puede utilizar una composición monocromática. Para una pieza promocional, la marca puede incorporar un contraste complementario, siempre que conserve la legibilidad de los textos.
 
 
