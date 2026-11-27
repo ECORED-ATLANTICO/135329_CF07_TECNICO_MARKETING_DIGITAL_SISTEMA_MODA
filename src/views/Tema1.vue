@@ -21,7 +21,7 @@
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3
             h5.text-bold Figura 1.
-            span Sistema Moda: etapas y retroalimentación.
+            span Sistema Moda: etapas y retroalimentación
           img.mb-0.d-none.d-lg-flex(data-aos="zoom-in-down", src="@/assets/curso/tema1/img02.png", alt="La figura 1 ilustra el esquema del Sistema Moda con seis etapas conectadas: investigación y diseño, abastecimiento, producción, comercialización, uso y reparación, reutilización o aprovechamiento. Desde el uso, una flecha de retorno representa cómo las necesidades, preferencias y opiniones del consumidor orientan nuevas decisiones de investigación y diseño.")
           img.mb-0.d-lg-none(data-aos="zoom-in-down", src="@/assets/curso/tema1/img03.png", alt="La figura 1 ilustra el esquema del Sistema Moda con seis etapas conectadas: investigación y diseño, abastecimiento, producción, comercialización, uso y reparación, reutilización o aprovechamiento. Desde el uso, una flecha de retorno representa cómo las necesidades, preferencias y opiniones del consumidor orientan nuevas decisiones de investigación y diseño.")
 
